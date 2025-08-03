@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.topic {
+    font-size: 4rem;
+}
+
+.left {
+    background-image: url("imgs/LeftPicture.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.contentLeft {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4em;
+}
+
+.redirectBtn {
+    padding: 1.2em 3em;
+    margin: auto;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.redirectBtn:hover {
+    background: #006db5;
+    color: white;
+    transform: scale(1.05);
+}
+
+.right {
+    background-image: url("imgs/RightPicture.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.contentRight {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4em;
+}
+
+.registerBtn {
+    padding: 1.2em 3em;
+    margin: auto;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.registerBtn:hover {
+    background: #003086;
+    color: white;
+    transform: scale(1.05);
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3em;
+    margin-bottom: 2em;
+    color: #111d74;
+}
+
+.flex {
+    display: flex;
+    gap: 9em;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weigth: bold;
+}
+
+.divFlex p {
+    font-weigth: bold;
+}
+
+@media (max-width: 515px) {
+    .flex {
+        gap: 3em;
+    }
+}
+
+@media (max-width: 425px) {
+    .header, .flex {
+        flex-direction: column;
+    }
+
+    .topic {
+        font-size: 3rem;
+    }
+}
