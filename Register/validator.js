@@ -57,7 +57,7 @@ class Validator {
         if (configFields[fieldName].matching) {
             const matchingEl = document.querySelector(`input[name=${configFields[fieldName].matching}]`);
             if (fieldValue !== matchingEl.value) {
-                this.errors[fieldName].push("Passwords to not match.");
+                this.errors[fieldName].push("Passwords do not match.");
             }
         }
 
