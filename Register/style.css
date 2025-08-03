@@ -16,7 +16,7 @@
     display: flex;
     color: white;
     text-align: left;
-    font-family: "Roboto", san serif;
+    font-family: "Roboto", san-serif;
     gap: 1em;
     transform: translateX(100%);
     transition: 1s;
